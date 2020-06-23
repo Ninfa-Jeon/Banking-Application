@@ -1,16 +1,34 @@
-# bankingapplication
+# Banking Application
 
-A new Flutter application.
+This is a Flutter dummy banking application built mainly for __Android__. 
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This application is loaded with __Firebase Auth__ for user registration and login 
+and __Cloud Firestore__ for user credentials like Name, Date of Birth, Phone number,
+Email and an initial dummy account balance of Rs.1000.0/-.
 
-A few resources to get you started if this is your first Flutter project:
+## Fuctionality
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+* User age is determined on entry of date of birth.
+* Successfully registered user can easily login with Phone number and Password entered 
+at the time of registration.
+* Upon login, user is greeted with a Homescreen with a WELCOME prompt.
+* User can transit between various screens of the application using a drawer.
+* User can check his account details which include an Account number generated upon
+his/her successful registration.
+* User can check his/her current account balance.
+* User can transfer money to another account holder (another user successfully registered
+to the application).
+* For money transfer, the user must fill in the details of the recipient (name and account
+number) with the amount to be transfered.
+* A unique transaction-id is created upon successful transfer and details of each
+transaction can be found in the Transactions History screen.
+* User can logout using the LOGOUT option in the drawer which takes him/her to the
+welcome screen
+* Every part of the application updates in real-time.
+* There are prompts for success and failure of any actions performed.
+* __CURRENTLY THERE IS NO WAY TO RETRIEVE AN ACCOUNT WITH A FORGOTTEN PASSWORD.__
+* My apologies for that as I was to stick to the current login method with a tight
+deadline but I will make sure to fix it.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
