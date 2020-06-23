@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "944250503670",
+    "firebase_url": "https://banking-app-c0292.firebaseio.com",
+    "project_id": "banking-app-c0292",
+    "storage_bucket": "banking-app-c0292.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944250503670:android:833649300e9caea9e6c7d7",
+        "android_client_info": {
+          "package_name": "ninfa.bankingapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944250503670-7oimcvsg6t8d43qrllmgr4kcv6lf4omo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoj4OiyH7Z3llbJTOqxtp1xoewhPotiBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944250503670-7oimcvsg6t8d43qrllmgr4kcv6lf4omo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
