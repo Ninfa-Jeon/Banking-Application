@@ -8,7 +8,7 @@ This application is loaded with __Firebase Auth__ for user registration and logi
 and __Cloud Firestore__ for user credentials like Name, Date of Birth, Phone number,
 Email and an initial dummy account balance of Rs.1000.0/-.
 
-## Fuctionality
+## Functionality
 
 * User age is determined on entry of date of birth.
 * Successfully registered user can easily login with Phone number and Password entered 
